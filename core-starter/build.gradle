@@ -1,0 +1,21 @@
+plugins {
+    id 'java-library'
+}
+
+compileJava {
+    options.encoding = 'UTF-8'
+}
+compileTestJava {
+    options.encoding = 'UTF-8'
+}
+
+dependencies {
+    api project(':core')
+    implementation 'org.springframework.boot:spring-boot-autoconfigure'
+    implementation 'org.springframework.boot:spring-boot-starter-data-r2dbc'
+
+    annotationProcessor 'org.springframework.boot:spring-boot-configuration-processor'
+
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    testImplementation 'io.projectreactor:reactor-test'
+}

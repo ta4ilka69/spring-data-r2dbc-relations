@@ -1,0 +1,5 @@
+rootProject.name = 'spring-data-r2dbc-custom'
+
+include 'core'
+include 'core-starter'
+include 'test-app'
