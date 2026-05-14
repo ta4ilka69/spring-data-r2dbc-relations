@@ -1,4 +1,4 @@
-# spring-data-r2dbc-graph
+# spring-data-r2dbc-relations
 
 > Declarative loading of related entities for Spring Data R2DBC. Fully non-blocking, two fetch strategies, Spring Boot auto-configuration in one dependency.
 
